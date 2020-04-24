@@ -1,6 +1,8 @@
 # CovidWatch
 CovidWatch- A system to access factual information & updates with features to solve the issues of the citizens.
+
 Contributors- I and Ashish Kumar Yadav[@dev_aky].
+
 Our contribution towards solving the issues and challenges India is facing during this global pandemic of COVID 19. We have designed an application which can be used to solve the issues which are being faced on a daily basis by the citizens when the country is in complete lockdown.
 
 ## The key issues our portal is solving
