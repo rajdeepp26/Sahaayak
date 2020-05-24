@@ -1,5 +1,5 @@
-# CovidWatch
-CovidWatch- A system to access factual information & updates with features to solve the issues of the citizens.
+# Sahaayak
+Sahaayak- A system to access factual information & updates with features to solve the issues of the citizens.
 
 Contributors- Rajdeep Purkayastha(me) and Ashish Kumar Yadav[@dev_aky].
 
