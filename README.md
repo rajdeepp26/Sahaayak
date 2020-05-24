@@ -16,7 +16,7 @@ Apk - https://drive.google.com/open?id=1YgqWLaTDlCUUDxKM8mFNbRQLLPDSj__y.
 ## Screenshots
 ![alt text](https://github.com/rajdeepp26/CovidWatch/blob/master/IMG-20200414-WA0011.jpg)
 ![alt text](https://github.com/rajdeepp26/CovidWatch/blob/master/IMG-20200414-WA0007.jpg)
-![alt text](https://github.com/rajdeepp26/CovidWatch/blob/master/IMG-20200414-WA0011.jpg)
+![alt text](https://github.com/rajdeepp26/CovidWatch/blob/master/IMG-20200414-WA0008.jpg)
 
 
 
