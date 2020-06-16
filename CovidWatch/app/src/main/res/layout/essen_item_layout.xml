@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardElevation="5dp"
+    android:visibility="visible"
+    app:strokeColor="@color/white"
+    app:strokeWidth="1dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="0dp"
+    app:ignore="NamespaceTypo">
+
+    <!--android:background="#00bcd4"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User id: "
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tvText"
+                    android:textColor="#404040"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint=" mail:"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="18dp"
+                    android:textStyle="normal"
+                    android:id="@+id/id"
+                    android:textColor="#404040"></TextView>
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/issueId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="9dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:text="#1"></TextView>
+
+                <TextView
+                    android:id="@+id/posted_by"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:singleLine="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="25dp"
+                    android:text="@string/app_name"
+                    android:textAlignment="center"
+                    android:textColor="#F44336"
+                    android:textSize="15dp"></TextView>
+
+
+                <TextView
+                    android:id="@+id/post_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center"
+                    android:paddingRight="2dp"
+                    android:text="30-03-2020 at 10:20;45 AM"
+                    android:textAlignment="center"
+                    android:textSize="12dp"></TextView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:layout_marginTop="0dp"
+                android:minLines="12"
+                android:paddingStart="10dp"
+                android:verticalScrollbarPosition="right"
+                android:overScrollMode="always"
+                android:scrollbarStyle="insideInset"
+                android:selectAllOnFocus="true"
+                android:foregroundGravity="top"
+                android:scrollbars="vertical"
+                android:inputType="textMultiLine"
+                android:editable="true"
+                android:enabled="true"
+                android:maxLines="20"
+                android:isScrollContainer="true"
+                android:focusable="true"
+                android:hint=" issues " />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:visibility="visible"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Contact"
+                    android:textSize="15dp"
+                    android:textColor="@color/blue"
+                    android:layout_marginRight="150dp"
+                    android:layout_gravity="left"
+                    android:id="@+id/contact"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right|end"
+                    android:textSize="15dp"
+                    android:text="Status "></TextView>
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:editable="false"
+                    android:focusableInTouchMode="true"
+                    android:paddingTop="3dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_gravity="right|end"
+                    android:textSize="12dp"
+                    android:textColor="#DA6E6E"
+                    android:text="Yet to be solved"></TextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:visibility="gone"
+                    android:id="@+id/st"
+                    android:src="@drawable/tick"></ImageView>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scrollbars="none">
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit ="marquee_forever"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:scrollHorizontally="true"
+                    android:text="Location"
+                    android:visibility="visible"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey"
+                    android:textStyle="bold"></TextView>
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

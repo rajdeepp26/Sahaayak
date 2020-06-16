@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Sahaayak</string>
+
+    <string name="who">Check latest guidelines on COVID-19 by WHO\n<a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">all info here</a>
+</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="web_client_id">1025922490857-k7e7g0cf62edegto1k6gbs2k74s6blut.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="restart">Please restart the app to install</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Dashboard!</string>
+    <string name="slide_1_desc">Dashboard will show the latest information.</string>
+
+    <string name="slide_2_title">Services</string>
+    <string name="slide_2_desc">Locate stores,upload needy photos so that others could help.</string>
+
+    <string name="slide_3_title">Post Issues</string>
+    <string name="slide_3_desc">With Post Issues feature you can post issues faced by you or others.</string>
+
+    <string name="slide_4_title">Risk Scan</string>
+    <string name="slide_4_desc">With Appolo Risk Scan Chatbot you can predict your heath conditions based on symptoms.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="about">
+
+        <b>Sahaayak</b>-We have developed a platform which connects the service provider (can be a single individual or a NGO) with someone in need.Where the needy can get help from his locality or from a NGO.
+
+        # A user can be a “service provider” or can be a “help seeker” depending on time and situation, it has nothing to do with the financial condition of the user every time.
+
+
+    </string>
+    <string name="a">
+
+</string>
+</resources>

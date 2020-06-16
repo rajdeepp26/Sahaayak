@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:enabled="true"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/store"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/store"
+        android:title="Services"
+        />
+
+    <item
+        android:id="@+id/essentials"
+        android:enabled="true"
+        android:icon="@drawable/essen"
+        android:title="Post Issues" />
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_risk"
+        android:enabled="true"
+        android:title="Risk Scan"
+        />
+
+
+
+</menu>

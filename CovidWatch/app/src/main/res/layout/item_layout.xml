@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="3dp"
+    android:visibility="visible"
+    app:strokeColor="@color/white"
+    app:strokeWidth="1dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="1dp"
+    app:ignore="NamespaceTypo">
+
+    <!--android:background="#00bcd4"-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <ImageView
+            android:id="@+id/cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_gravity="center"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@color/white" />
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:visibility="gone"
+            android:foregroundGravity="right|top|center"
+            android:gravity="right|end|top"
+            android:src="@drawable/ic_info_outline_black_24dp"></ImageView>
+
+        <TextView
+            android:id="@+id/edit_store_name"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cover_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:visibility="visible"
+            android:singleLine="true"
+            android:maxLength="60"
+            android:textColor="#E73535"
+            android:foregroundGravity="center_horizontal"
+            android:hint="Store name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:id="@+id/by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Uploaded by"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/cover_image"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/edit_store_name"
+            ></TextView>
+        <TextView
+            android:id="@+id/uploaded_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:maxLength="60"
+            android:visibility="visible"
+            android:hint="uploader"
+            android:textColor="@color/grey"
+            android:layout_below="@+id/edit_store_name"
+            android:layout_marginLeft="10dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uploaded_by"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/store_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Location"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:maxLength="60"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
